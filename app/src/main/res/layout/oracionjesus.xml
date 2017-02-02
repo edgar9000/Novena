@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:text="Oracion Jesus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oracionJesustext" >
+
+        <ImageView
+            android:id="@+id/ninoImg"
+            android:layout_height="120dp"
+            android:src="@drawable/nino"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+        </WebView>
+</LinearLayout>
